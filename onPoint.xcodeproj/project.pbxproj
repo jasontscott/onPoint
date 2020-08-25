@@ -13,6 +13,7 @@
 		33920A1324F3451900DB526F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33920A1124F3451900DB526F /* Main.storyboard */; };
 		33920A1524F3451A00DB526F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33920A1424F3451A00DB526F /* Assets.xcassets */; };
 		33920A1824F3451A00DB526F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33920A1624F3451A00DB526F /* LaunchScreen.storyboard */; };
+		33920A2124F4CC6100DB526F /* ShiftEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33920A2024F4CC6100DB526F /* ShiftEmployee.swift */; };
 		5B3388EA9BACBDA78130D9F2 /* Pods_onPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7E18014BF622F5418623FD /* Pods_onPoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		33920A1424F3451A00DB526F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33920A1724F3451A00DB526F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33920A1924F3451A00DB526F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33920A2024F4CC6100DB526F /* ShiftEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftEmployee.swift; sourceTree = "<group>"; };
 		BD7E18014BF622F5418623FD /* Pods_onPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E184E50D76E2DF61215C5B2A /* Pods-onPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onPoint.debug.xcconfig"; path = "Target Support Files/Pods-onPoint/Pods-onPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				33920A1424F3451A00DB526F /* Assets.xcassets */,
 				33920A1624F3451A00DB526F /* LaunchScreen.storyboard */,
 				33920A1924F3451A00DB526F /* Info.plist */,
+				33920A2024F4CC6100DB526F /* ShiftEmployee.swift */,
 			);
 			path = onPoint;
 			sourceTree = "<group>";
@@ -80,7 +83,6 @@
 				E184E50D76E2DF61215C5B2A /* Pods-onPoint.debug.xcconfig */,
 				0F7BD2DE25B7EF67B3ABC67B /* Pods-onPoint.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33920A2124F4CC6100DB526F /* ShiftEmployee.swift in Sources */,
 				33920A1024F3451900DB526F /* mainVC.swift in Sources */,
 				33920A0C24F3451900DB526F /* AppDelegate.swift in Sources */,
 				33920A0E24F3451900DB526F /* SceneDelegate.swift in Sources */,
